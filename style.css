@@ -1,0 +1,30 @@
+.display {
+    height: 40px;
+    width: 50%;
+    text-align: center;
+    border: 1px solid;
+    font-size: 1.5em;
+}
+
+.buttons {
+    display: grid;
+    width: 50%;
+    height: 500px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.number, .operator, .equal, .decimal {
+    text-align: center;
+    border: 1px solid;
+    font-weight: bold;
+    margin: 10px 10px 10px 10px;
+    font-size: 1.5em;
+}
+
+.clear {
+    height: 40px;
+    width: 50%;
+    text-align: center;
+    border: 1px solid;
+}
