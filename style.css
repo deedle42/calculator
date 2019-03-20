@@ -14,6 +14,10 @@
     grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
+.button:active {
+    background-color: gray;
+}
+
 .number, .operator, .equal, .decimal {
     text-align: center;
     border: 1px solid;
